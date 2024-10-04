@@ -1,0 +1,225 @@
+{
+  "alquiler": [
+    {
+      "id": 1,
+      "estado": "Pendiente",
+      "fecha_inicio": "2024-05-15",
+      "fecha_fin": "2024-05-22",
+      "vehiculo_id": 1,
+      "propietario_id": 3,
+      "arrendatario_id": 2
+    },
+    {
+      "id": 2,
+      "estado": "Pagado",
+      "fecha_inicio": "2024-05-10",
+      "fecha_fin": "2024-05-15",
+      "vehiculo_id": 2,
+      "propietario_id": 3,
+      "arrendatario_id": 4
+    },
+    {
+      "id": 3,
+      "estado": "Rechazado",
+      "fecha_inicio": "2024-05-01",
+      "fecha_fin": "2024-05-03",
+      "vehiculo_id": 1,
+      "propietario_id": 3,
+      "arrendatario_id": 2
+    },
+    {
+      "id": 4,
+      "estado": "Rechazado",
+      "fecha_inicio": "2024-04-25",
+      "fecha_fin": "2024-04-30",
+      "vehiculo_id": 1,
+      "propietario_id": 3,
+      "arrendatario_id": 4
+    },
+    {
+      "id": 5,
+      "estado": "Pagado",
+      "fecha_inicio": "2024-05-02",
+      "fecha_fin": "2024-05-09",
+      "vehiculo_id": 1,
+      "propietario_id": 1,
+      "arrendatario_id": 4
+    },
+    {
+      "id": 6,
+      "estado": "Pagado",
+      "fecha_inicio": "2024-05-05",
+      "fecha_fin": "2024-05-12",
+      "vehiculo_id": 1,
+      "propietario_id": 3,
+      "arrendatario_id": 4
+    }
+  ],
+  "vehiculo": [
+    {
+      "id": 1,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "velocidad_max": 180,
+      "consumo": 10,
+      "dimensiones": "180-460-147",
+      "peso": 1200,
+      "clase": "Sedan",
+      "transmision": "Automatica",
+      "tiempo": 10,
+      "tipo_tiempo": "Semanal",
+      "costo_alquiler": 50,
+      "lugar_recojo": "Salaverry 1810, Jesus Maria",
+      "url_imagen": "https://grupopana.com.pe/hs-fs/hubfs/CorollaHybrid-rojo_0x-01.jpg?width=600&name=CorollaHybrid-rojo_0x-01.jpg",
+      "contratoAlquilerpdf": "../contrato.pdf",
+      "estado_renta": "disponible",
+      "propietario_id": 3,
+      "arrendatario_id": null,
+      "alquiler_id": null
+    },
+    {
+      "id": 2,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "velocidad_max": 200,
+      "consumo": 12,
+      "dimensiones": "175-455-145",
+      "peso": 1250,
+      "clase": "Sedan",
+      "transmision": "Automatica",
+      "tiempo": 8,
+      "tipo_tiempo": "Mensual",
+      "costo_alquiler": 60,
+      "lugar_recojo": "Av. Javier Prado Este 1000, San Isidro",
+      "url_imagen": "https://d275w7g9tp258u.cloudfront.net/wp-content/uploads/2022/09/honda_civic.png",
+      "estado_renta": "disponible",
+      "propietario_id": 5,
+      "arrendatario_id": null,
+      "alquiler_id": null
+    },
+    {
+      "id": 3,
+      "marca": "Ford",
+      "modelo": "Focus",
+      "velocidad_max": 190,
+      "consumo": 11,
+      "dimensiones": "170-450-140",
+      "peso": 1150,
+      "clase": "Hatchback",
+      "transmision": "Manual",
+      "tiempo": 9,
+      "tipo_tiempo": "Semanal",
+      "costo_alquiler": 55,
+      "lugar_recojo": "Av. Arequipa 1234, Miraflores",
+      "url_imagen": "https://www.gpas-cache.ford.com/guid/3c3e2039-651c-396c-9d4a-9341fa79386b.png",
+      "contratoAlquilerpdf": "../contrato.pdf",
+      "estado_renta": "disponible",
+      "propietario_id": 3,
+      "arrendatario_id": null,
+      "alquiler_id": null
+    }
+  ],
+  "usuario": [
+    {
+      "id": 3,
+      "nombres": "John",
+      "apellidos": "Doe",
+      "fecha_nacimiento": "1990-01-01",
+      "telefono": "1234567890",
+      "correo": "john@example.com",
+      "contrasenia": "password123",
+      "tipo": "arrendador"
+    },
+    {
+      "id": 4,
+      "nombres": "Jane",
+      "apellidos": "Doe",
+      "fecha_nacimiento": "1995-01-01",
+      "telefono": "0987654321",
+      "correo": "jane@example.com",
+      "contrasenia": "password456",
+      "tipo": "arrendatario"
+    },
+    {
+      "id": 5,
+      "nombres": "Michael",
+      "apellidos": "Smith",
+      "fecha_nacimiento": "1985-05-15",
+      "telefono": "9876543210",
+      "correo": "michael@example.com",
+      "contrasenia": "password789",
+      "tipo": "arrendador"
+    },
+    {
+      "id": 6,
+      "nombres": "Emily",
+      "apellidos": "Johnson",
+      "fecha_nacimiento": "1998-08-20",
+      "telefono": "0123456789",
+      "correo": "emily@example.com",
+      "antecedentes_penales_pdf": null,
+      "contrasenia": "passwordABC",
+      "tipo": "arrendatario"
+    },
+    {
+      "id": 7,
+      "nombres": "ds",
+      "apellidos": "we",
+      "fechaNacimiento": "12-19-31",
+      "telefono": "123",
+      "correo": "luisaquijequiroga11@gmail.com",
+      "contrasenia": "123",
+      "tipo": "arrendador"
+    },
+    {
+      "id": 8,
+      "nombres": "Jair Bahir",
+      "apellidos": "Mohamed Abdul",
+      "fechaNacimiento": "10-2003-12",
+      "telefono": "123",
+      "correo": "jvjdjned@gmail.com",
+      "contrasenia": "123",
+      "tipo": "arrendatario"
+    },
+    {
+      "id": 9,
+      "nombres": "Luis Enrique",
+      "apellidos": "Aquije Quiroga",
+      "fechaNacimiento": "11-2003-21",
+      "telefono": "945163898",
+      "correo": "luisaquijequiroga11@gmail.com",
+      "contrasenia": "123",
+      "tipo": "arrendador"
+    },
+    {
+      "id": 10,
+      "nombres": "Luis Enrique",
+      "apellidos": "Aquije Quiroga",
+      "fechaNacimiento": "2003-11-21",
+      "telefono": "945613898",
+      "correo": "dada@gmail.com",
+      "contrasenia": "123",
+      "tipo": "arrendador"
+    },
+    {
+      "id": 11,
+      "nombres": "Jair Bahir",
+      "apellidos": "Mohamed Abdul",
+      "fechaNacimiento": "2003-11-21",
+      "telefono": "9999999999999",
+      "correo": "dada@gmail.com",
+      "contrasenia": "123",
+      "tipo": "arrendatario"
+    }
+  ],
+  "mantenimiento": [
+    {
+      "id": 1,
+      "tipo_problema": "tipo de problema",
+      "titulo": "titulo del problema",
+      "descripcion": "descripcion del problema",
+      "arrendatario_id": 6,
+      "propietario_id": 3
+    }
+  ]
+}
